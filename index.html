@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>tBubble · Tu copiloto de trading por voz</title>
+<meta name="description" content="tBubble es el diario de trading que se escribe mientras hablas. Tibi, la burbuja, ordena tu plan, tus emociones y tus resultados.">
+<meta property="og:title" content="tBubble">
+<meta property="og:description" content="El diario de trading que se escribe mientras hablas.">
+<meta property="og:url" content="https://tbubble.app/">
+<meta name="theme-color" content="#f5f5f7">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav wrap">
+  <a class="logo" href="#top"><img src="icon.svg" alt="" width="30" height="30">tBubble</a>
+  <nav><a href="#tibi">Tibi</a><a href="#como">Cómo funciona</a><a class="btn" href="#descargar">Descargar</a></nav>
+</header>
+<main id="top">
+  <section class="hero wrap">
+    <div class="pitch">
+      <p class="badge">Beta privada · solo por invitación</p>
+      <h1>Tu diario de trading se escribe mientras hablas</h1>
+      <p class="lead">Narra tu análisis, tu plan y cómo te sientes mientras operas. Tibi, la burbuja que flota sobre tu plataforma, lo transcribe, lo ordena por operación y te enseña cómo ejecutas tu plan.</p>
+      <div class="cta"><a class="btn primary" href="#descargar">Descargar</a><a class="btn ghost" href="#como">Cómo funciona</a></div>
+      <p class="fine">Gratis con tu propia clave de Groq. Tus notas se quedan en tu equipo.</p>
+    </div>
+    <figure class="stage">
+      <div class="orb big" data-face="reposo" aria-hidden="true"><div class="sph"><span class="blob b0"></span><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><div class="tibi"><div class="tf" data-f="reposo"><div class="t-glance"><i class="te t-blink" style="left:43px"></i><i class="te t-blink" style="left:75px"></i></div></div><div class="tf" data-f="mensaje"><i class="te t-blink" style="left:43px"></i><i class="te t-blink" style="left:75px"></i><i class="tm t-talk m0" style="left:38.5px;top:84.0px;height:8px"></i><i class="tm t-talk m1" style="left:49.5px;top:81.0px;height:14px"></i><i class="tm t-talk m2" style="left:60.5px;top:78.0px;height:20px"></i><i class="tm t-talk m3" style="left:71.5px;top:81.0px;height:14px"></i><i class="tm t-talk m4" style="left:82.5px;top:84.0px;height:8px"></i></div><div class="tf" data-f="pregunta"><div class="t-tilt"><i class="te " style="left:43px"></i><i class="te t-raise" style="left:75px"></i><i class="t-ohh"></i></div></div><div class="tf" data-f="recomendacion"><div class="t-hop"><i class="te " style="left:43px"></i><i class="te t-wink" style="left:75px"></i><i class="tm  m0" style="left:49.5px;top:80.5px;height:7px"></i><i class="tm  m1" style="left:60.5px;top:83.5px;height:7px"></i><i class="tm  m2" style="left:71.5px;top:80.5px;height:7px"></i></div></div><div class="tf" data-f="aviso"><i class="te t-lid" style="left:43px"></i><i class="te t-lid" style="left:75px"></i><i class="t-flat"></i></div><div class="tf" data-f="gano"><div class="t-hop"><i class="te t-grow up" style="left:43px"></i><i class="te t-grow up" style="left:75px"></i><i class="tm  m0" style="left:38.5px;top:77.0px;height:8px"></i><i class="tm  m1" style="left:49.5px;top:82.0px;height:8px"></i><i class="tm  m2" style="left:60.5px;top:84.0px;height:8px"></i><i class="tm  m3" style="left:71.5px;top:82.0px;height:8px"></i><i class="tm  m4" style="left:82.5px;top:77.0px;height:8px"></i></div></div><div class="tf" data-f="perdio"><div class="t-sheep"><i class="te t-drop down" style="left:43px"></i><i class="te t-drop t-late down" style="left:75px"></i><i class="t-flat t-tilted"></i></div></div></div></div></div>
+      <figcaption class="say" aria-live="polite"><span class="who">Tibi</span><span id="say">Aquí estoy. ¿Arrancamos la sesión?</span></figcaption>
+    </figure>
+  </section>
+
+  <section class="band" id="tibi">
+    <div class="wrap">
+      <h2>Conoce a Tibi</h2>
+      <p class="sub">Sus ojos son velas japonesas. No habla: te mira, gesticula y suena un momento cuando se dirige a ti, así sabes de un vistazo si te pregunta, te recomienda algo o te avisa.</p>
+      <div class="moods"><article class="mood"><div class="orb sm" data-face="pregunta" aria-hidden="true"><div class="sph"><span class="blob b0"></span><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><div class="tibi"><div class="tf" data-f="reposo"><div class="t-glance"><i class="te t-blink" style="left:43px"></i><i class="te t-blink" style="left:75px"></i></div></div><div class="tf" data-f="mensaje"><i class="te t-blink" style="left:43px"></i><i class="te t-blink" style="left:75px"></i><i class="tm t-talk m0" style="left:38.5px;top:84.0px;height:8px"></i><i class="tm t-talk m1" style="left:49.5px;top:81.0px;height:14px"></i><i class="tm t-talk m2" style="left:60.5px;top:78.0px;height:20px"></i><i class="tm t-talk m3" style="left:71.5px;top:81.0px;height:14px"></i><i class="tm t-talk m4" style="left:82.5px;top:84.0px;height:8px"></i></div><div class="tf" data-f="pregunta"><div class="t-tilt"><i class="te " style="left:43px"></i><i class="te t-raise" style="left:75px"></i><i class="t-ohh"></i></div></div><div class="tf" data-f="recomendacion"><div class="t-hop"><i class="te " style="left:43px"></i><i class="te t-wink" style="left:75px"></i><i class="tm  m0" style="left:49.5px;top:80.5px;height:7px"></i><i class="tm  m1" style="left:60.5px;top:83.5px;height:7px"></i><i class="tm  m2" style="left:71.5px;top:80.5px;height:7px"></i></div></div><div class="tf" data-f="aviso"><i class="te t-lid" style="left:43px"></i><i class="te t-lid" style="left:75px"></i><i class="t-flat"></i></div><div class="tf" data-f="gano"><div class="t-hop"><i class="te t-grow up" style="left:43px"></i><i class="te t-grow up" style="left:75px"></i><i class="tm  m0" style="left:38.5px;top:77.0px;height:8px"></i><i class="tm  m1" style="left:49.5px;top:82.0px;height:8px"></i><i class="tm  m2" style="left:60.5px;top:84.0px;height:8px"></i><i class="tm  m3" style="left:71.5px;top:82.0px;height:8px"></i><i class="tm  m4" style="left:82.5px;top:77.0px;height:8px"></i></div></div><div class="tf" data-f="perdio"><div class="t-sheep"><i class="te t-drop down" style="left:43px"></i><i class="te t-drop t-late down" style="left:75px"></i><i class="t-flat t-tilted"></i></div></div></div></div></div><h3>Pregunta</h3><p>Inclina la cabeza y espera tu respuesta: «Ese trade… ¿del plan o de la corazonada?»</p></article><article class="mood"><div class="orb sm" data-face="recomendacion" aria-hidden="true"><div class="sph"><span class="blob b0"></span><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><div class="tibi"><div class="tf" data-f="reposo"><div class="t-glance"><i class="te t-blink" style="left:43px"></i><i class="te t-blink" style="left:75px"></i></div></div><div class="tf" data-f="mensaje"><i class="te t-blink" style="left:43px"></i><i class="te t-blink" style="left:75px"></i><i class="tm t-talk m0" style="left:38.5px;top:84.0px;height:8px"></i><i class="tm t-talk m1" style="left:49.5px;top:81.0px;height:14px"></i><i class="tm t-talk m2" style="left:60.5px;top:78.0px;height:20px"></i><i class="tm t-talk m3" style="left:71.5px;top:81.0px;height:14px"></i><i class="tm t-talk m4" style="left:82.5px;top:84.0px;height:8px"></i></div><div class="tf" data-f="pregunta"><div class="t-tilt"><i class="te " style="left:43px"></i><i class="te t-raise" style="left:75px"></i><i class="t-ohh"></i></div></div><div class="tf" data-f="recomendacion"><div class="t-hop"><i class="te " style="left:43px"></i><i class="te t-wink" style="left:75px"></i><i class="tm  m0" style="left:49.5px;top:80.5px;height:7px"></i><i class="tm  m1" style="left:60.5px;top:83.5px;height:7px"></i><i class="tm  m2" style="left:71.5px;top:80.5px;height:7px"></i></div></div><div class="tf" data-f="aviso"><i class="te t-lid" style="left:43px"></i><i class="te t-lid" style="left:75px"></i><i class="t-flat"></i></div><div class="tf" data-f="gano"><div class="t-hop"><i class="te t-grow up" style="left:43px"></i><i class="te t-grow up" style="left:75px"></i><i class="tm  m0" style="left:38.5px;top:77.0px;height:8px"></i><i class="tm  m1" style="left:49.5px;top:82.0px;height:8px"></i><i class="tm  m2" style="left:60.5px;top:84.0px;height:8px"></i><i class="tm  m3" style="left:71.5px;top:82.0px;height:8px"></i><i class="tm  m4" style="left:82.5px;top:77.0px;height:8px"></i></div></div><div class="tf" data-f="perdio"><div class="t-sheep"><i class="te t-drop down" style="left:43px"></i><i class="te t-drop t-late down" style="left:75px"></i><i class="t-flat t-tilted"></i></div></div></div></div></div><h3>Recomienda</h3><p>Da un saltito y guiña: «Tus mejores trades llegan antes de las 11».</p></article><article class="mood"><div class="orb sm" data-face="aviso" data-aura="warn" aria-hidden="true"><div class="sph"><span class="blob b0"></span><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><div class="tibi"><div class="tf" data-f="reposo"><div class="t-glance"><i class="te t-blink" style="left:43px"></i><i class="te t-blink" style="left:75px"></i></div></div><div class="tf" data-f="mensaje"><i class="te t-blink" style="left:43px"></i><i class="te t-blink" style="left:75px"></i><i class="tm t-talk m0" style="left:38.5px;top:84.0px;height:8px"></i><i class="tm t-talk m1" style="left:49.5px;top:81.0px;height:14px"></i><i class="tm t-talk m2" style="left:60.5px;top:78.0px;height:20px"></i><i class="tm t-talk m3" style="left:71.5px;top:81.0px;height:14px"></i><i class="tm t-talk m4" style="left:82.5px;top:84.0px;height:8px"></i></div><div class="tf" data-f="pregunta"><div class="t-tilt"><i class="te " style="left:43px"></i><i class="te t-raise" style="left:75px"></i><i class="t-ohh"></i></div></div><div class="tf" data-f="recomendacion"><div class="t-hop"><i class="te " style="left:43px"></i><i class="te t-wink" style="left:75px"></i><i class="tm  m0" style="left:49.5px;top:80.5px;height:7px"></i><i class="tm  m1" style="left:60.5px;top:83.5px;height:7px"></i><i class="tm  m2" style="left:71.5px;top:80.5px;height:7px"></i></div></div><div class="tf" data-f="aviso"><i class="te t-lid" style="left:43px"></i><i class="te t-lid" style="left:75px"></i><i class="t-flat"></i></div><div class="tf" data-f="gano"><div class="t-hop"><i class="te t-grow up" style="left:43px"></i><i class="te t-grow up" style="left:75px"></i><i class="tm  m0" style="left:38.5px;top:77.0px;height:8px"></i><i class="tm  m1" style="left:49.5px;top:82.0px;height:8px"></i><i class="tm  m2" style="left:60.5px;top:84.0px;height:8px"></i><i class="tm  m3" style="left:71.5px;top:82.0px;height:8px"></i><i class="tm  m4" style="left:82.5px;top:77.0px;height:8px"></i></div></div><div class="tf" data-f="perdio"><div class="t-sheep"><i class="te t-drop down" style="left:43px"></i><i class="te t-drop t-late down" style="left:75px"></i><i class="t-flat t-tilted"></i></div></div></div></div></div><h3>Avisa</h3><p>Ojos entrecerrados y aura ámbar: «Vas 2 de 3 trades».</p></article><article class="mood"><div class="orb sm" data-face="gano" data-aura="ok" aria-hidden="true"><div class="sph"><span class="blob b0"></span><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><div class="tibi"><div class="tf" data-f="reposo"><div class="t-glance"><i class="te t-blink" style="left:43px"></i><i class="te t-blink" style="left:75px"></i></div></div><div class="tf" data-f="mensaje"><i class="te t-blink" style="left:43px"></i><i class="te t-blink" style="left:75px"></i><i class="tm t-talk m0" style="left:38.5px;top:84.0px;height:8px"></i><i class="tm t-talk m1" style="left:49.5px;top:81.0px;height:14px"></i><i class="tm t-talk m2" style="left:60.5px;top:78.0px;height:20px"></i><i class="tm t-talk m3" style="left:71.5px;top:81.0px;height:14px"></i><i class="tm t-talk m4" style="left:82.5px;top:84.0px;height:8px"></i></div><div class="tf" data-f="pregunta"><div class="t-tilt"><i class="te " style="left:43px"></i><i class="te t-raise" style="left:75px"></i><i class="t-ohh"></i></div></div><div class="tf" data-f="recomendacion"><div class="t-hop"><i class="te " style="left:43px"></i><i class="te t-wink" style="left:75px"></i><i class="tm  m0" style="left:49.5px;top:80.5px;height:7px"></i><i class="tm  m1" style="left:60.5px;top:83.5px;height:7px"></i><i class="tm  m2" style="left:71.5px;top:80.5px;height:7px"></i></div></div><div class="tf" data-f="aviso"><i class="te t-lid" style="left:43px"></i><i class="te t-lid" style="left:75px"></i><i class="t-flat"></i></div><div class="tf" data-f="gano"><div class="t-hop"><i class="te t-grow up" style="left:43px"></i><i class="te t-grow up" style="left:75px"></i><i class="tm  m0" style="left:38.5px;top:77.0px;height:8px"></i><i class="tm  m1" style="left:49.5px;top:82.0px;height:8px"></i><i class="tm  m2" style="left:60.5px;top:84.0px;height:8px"></i><i class="tm  m3" style="left:71.5px;top:82.0px;height:8px"></i><i class="tm  m4" style="left:82.5px;top:77.0px;height:8px"></i></div></div><div class="tf" data-f="perdio"><div class="t-sheep"><i class="te t-drop down" style="left:43px"></i><i class="te t-drop t-late down" style="left:75px"></i><i class="t-flat t-tilted"></i></div></div></div></div></div><h3>Celebra</h3><p>Sus ojos se vuelven velas verdes que suben.</p></article><article class="mood"><div class="orb sm" data-face="perdio" data-aura="calm" aria-hidden="true"><div class="sph"><span class="blob b0"></span><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><div class="tibi"><div class="tf" data-f="reposo"><div class="t-glance"><i class="te t-blink" style="left:43px"></i><i class="te t-blink" style="left:75px"></i></div></div><div class="tf" data-f="mensaje"><i class="te t-blink" style="left:43px"></i><i class="te t-blink" style="left:75px"></i><i class="tm t-talk m0" style="left:38.5px;top:84.0px;height:8px"></i><i class="tm t-talk m1" style="left:49.5px;top:81.0px;height:14px"></i><i class="tm t-talk m2" style="left:60.5px;top:78.0px;height:20px"></i><i class="tm t-talk m3" style="left:71.5px;top:81.0px;height:14px"></i><i class="tm t-talk m4" style="left:82.5px;top:84.0px;height:8px"></i></div><div class="tf" data-f="pregunta"><div class="t-tilt"><i class="te " style="left:43px"></i><i class="te t-raise" style="left:75px"></i><i class="t-ohh"></i></div></div><div class="tf" data-f="recomendacion"><div class="t-hop"><i class="te " style="left:43px"></i><i class="te t-wink" style="left:75px"></i><i class="tm  m0" style="left:49.5px;top:80.5px;height:7px"></i><i class="tm  m1" style="left:60.5px;top:83.5px;height:7px"></i><i class="tm  m2" style="left:71.5px;top:80.5px;height:7px"></i></div></div><div class="tf" data-f="aviso"><i class="te t-lid" style="left:43px"></i><i class="te t-lid" style="left:75px"></i><i class="t-flat"></i></div><div class="tf" data-f="gano"><div class="t-hop"><i class="te t-grow up" style="left:43px"></i><i class="te t-grow up" style="left:75px"></i><i class="tm  m0" style="left:38.5px;top:77.0px;height:8px"></i><i class="tm  m1" style="left:49.5px;top:82.0px;height:8px"></i><i class="tm  m2" style="left:60.5px;top:84.0px;height:8px"></i><i class="tm  m3" style="left:71.5px;top:82.0px;height:8px"></i><i class="tm  m4" style="left:82.5px;top:77.0px;height:8px"></i></div></div><div class="tf" data-f="perdio"><div class="t-sheep"><i class="te t-drop down" style="left:43px"></i><i class="te t-drop t-late down" style="left:75px"></i><i class="t-flat t-tilted"></i></div></div></div></div></div><h3>Acompaña</h3><p>Velas rojas que bajan y un «Ese no nos quería».</p></article></div>
+    </div>
+  </section>
+
+  <section class="wrap" id="como">
+    <h2>Cómo funciona</h2>
+    <ol class="steps">
+      <li><h3>Hablas</h3><p>Pulsas grabar y narras, en español o en inglés, sin dejar de mirar el gráfico. Si quieres, capturas la pantalla de cada trade.</p></li>
+      <li><h3>Se ordena solo</h3><p>Cada frase va a su operación: análisis, plan, emoción o regla. Entrada, stop, resultado y R quedan como datos.</p></li>
+      <li><h3>Lo revisas</h3><p>Un calendario con tus días, tus cuentas con lo que queda de cada límite y el detalle de cada trade con la frase que lo respalda.</p></li>
+    </ol>
+  </section>
+
+  <section class="band">
+    <div class="wrap cols">
+      <article><h3>En vivo</h3><ul>
+        <li>Check-in de 20 segundos antes de empezar: sueño, energía y ánimo.</li>
+        <li>Avisos de tus límites al cerrar cada trade; nunca interrumpe con uno abierto.</li>
+        <li>Al terminar, el plan de cada trade y la lección del día.</li>
+        <li>Varias cuentas, de fondeo o reales, también con trades copiados.</li></ul></article>
+      <article><h3>Backtesting</h3><ul>
+        <li>Dices qué vas a probar: un setup, una regla, un cambio en tu plan.</li>
+        <li>Resultados por setup y por prueba: acierto, R medio y número de trades.</li>
+        <li>Con pocos trades te avisa: muestra pequeña, todavía no concluyas.</li>
+        <li>Cada prueba termina con tu conclusión.</li></ul></article>
+    </div>
+  </section>
+
+  <section class="wrap cols three trust">
+    <article><h3>Tus datos, en tu equipo</h3><p>Notas, capturas y resultados se guardan en tu ordenador. No hay un servidor de tBubble que los reciba.</p></article>
+    <article><h3>Tu propia clave de IA</h3><p>La voz y lo que dictas van al proveedor que elijas: Groq gratis, o Claude, OpenAI, Google y otros si ya los pagas.</p></article>
+    <article><h3>Tú decides</h3><p>Tibi propone y tú confirmas con un toque. Registra y analiza; las decisiones de trading son siempre tuyas.</p></article>
+  </section>
+
+  <section class="band" id="descargar">
+    <div class="wrap">
+      <h2>Descargar</h2>
+      <p class="sub">tBubble está en beta privada: por ahora solo para invitados. Los instaladores aparecerán aquí y en la <a href="https://github.com/jeysson-code/tbubble-web/releases">página de versiones</a>.</p>
+      <div class="dl">
+        <article><h3>Windows</h3><p>Windows 10 u 11 de 64 bits.</p><span class="soon">Próximamente</span></article>
+        <article><h3>macOS</h3><p>macOS 12 o posterior, Apple Silicon e Intel.</p><span class="soon">Próximamente</span></article>
+        <article><h3>Linux</h3><p>Probado en Pop!_OS (X11 y Wayland).</p><span class="soon">Próximamente</span></article>
+      </div>
+      <p class="fine">Necesitas un micrófono y una clave de IA. La de Groq es gratis; dentro de la app te guiamos para conseguirla en tres minutos.</p>
+    </div>
+  </section>
+</main>
+<footer class="wrap foot"><span>© 2026 tBubble</span><span>tBubble registra y analiza tu operativa. No da señales ni consejo financiero.</span></footer>
+<script>
+// Tibi en la portada: va cambiando de gesto con una frase de ejemplo
+(function () {
+  var steps = [
+    ['reposo', '', 'Aquí estoy. ¿Arrancamos la sesión?'],
+    ['pregunta', '', 'Ese último trade… ¿fue del plan o de la corazonada?'],
+    ['recomendacion', '', 'Tus mejores trades llegan antes de las 11. Son las 10:40… solo digo.'],
+    ['aviso', 'warn', 'Vas 2 de 3 trades. Que el tercero sea de los buenos.'],
+    ['gano', 'ok', '¡Eso! +12 puntos y siguiendo el plan.'],
+    ['perdio', 'calm', 'Ese no nos quería. Stop respetado, que es lo que cuenta.']
+  ];
+  var orb = document.querySelector('.orb.big'), say = document.getElementById('say'), i = 0;
+  if (!orb || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  setInterval(function () {
+    i = (i + 1) % steps.length;
+    orb.dataset.face = steps[i][0];
+    if (steps[i][1]) orb.dataset.aura = steps[i][1]; else orb.removeAttribute('data-aura');
+    say.textContent = steps[i][2];
+  }, 3600);
+})();
+</script>
+</body>
+</html>
