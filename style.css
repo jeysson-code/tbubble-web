@@ -55,6 +55,12 @@ section.wrap { padding-block: 72px; }
 .dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 32px 0 20px; }
 .dl article { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 22px; display: flex; flex-direction: column; gap: 8px; }
 .dl p { color: var(--fg2); font-size: 15px; }
+.dl .btn { align-self: flex-start; margin-top: 6px; }
+.dl .alt { font-size: 14px; color: var(--fg2); }
+.dl details { margin-top: 4px; font-size: 14px; color: var(--fg2); }
+.dl summary { cursor: pointer; color: var(--fg3); }
+.dl details p { margin-top: 8px; font-size: 14px; }
+.dl code { font-size: 13px; }
 .soon { align-self: flex-start; margin-top: 6px; font-size: 13px; font-weight: 600; padding: 6px 12px; border-radius: 999px; border: 1px dashed var(--line); color: var(--fg3); }
 .foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding-block: 32px 48px; font-size: 14px; color: var(--fg3); border-top: 1px solid var(--line); }
 
