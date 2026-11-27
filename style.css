@@ -44,6 +44,9 @@ section.wrap { padding-block: 72px; }
 .moods { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; margin-top: 36px; }
 .mood { background: var(--panel); border: 1px solid var(--line); border-radius: 20px; padding: 26px 20px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 10px; }
 .mood p { font-size: 14px; color: var(--fg2); line-height: 1.5; }
+.video { margin: 28px 0 0; }
+.video video { display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: 16px; background: #0b0d12; box-shadow: 0 20px 60px rgba(0,0,0,.18); }
+.video figcaption { margin-top: 10px; color: var(--fg2); font-size: 14px; text-align: center; }
 .steps { list-style: none; padding: 0; margin: 32px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 28px; counter-reset: s; }
 .steps li { counter-increment: s; display: flex; flex-direction: column; gap: 8px; }
 .steps li::before { content: counter(s); font: 600 15px/1 var(--display); width: 32px; height: 32px; display: grid; place-items: center; border-radius: 50%; background: var(--fg); color: var(--bg); }
